@@ -1,0 +1,62 @@
+
+@font-face { 
+     font-family: 'static';
+     src:    url('http://localhost/lagenlia/wp-content/uploads/avia_fonts/type_fonts/static/mavenpro-black.ttf') format('truetype');
+     font-style:  normal;
+     font-weight: 900;
+     font-display: auto;
+}
+@font-face { 
+     font-family: 'static';
+     src:    url('http://localhost/lagenlia/wp-content/uploads/avia_fonts/type_fonts/static/mavenpro-bold.ttf') format('truetype');
+     font-style:  normal;
+     font-weight: 700;
+     font-display: auto;
+}
+@font-face { 
+     font-family: 'static';
+     src:    url('http://localhost/lagenlia/wp-content/uploads/avia_fonts/type_fonts/static/mavenpro-extrabold.ttf') format('truetype');
+     font-style:  normal;
+     font-weight: 800;
+     font-display: auto;
+}
+@font-face { 
+     font-family: 'static';
+     src:    url('http://localhost/lagenlia/wp-content/uploads/avia_fonts/type_fonts/static/mavenpro-medium.ttf') format('truetype');
+     font-style:  normal;
+     font-weight: 500;
+     font-display: auto;
+}
+@font-face { 
+     font-family: 'static';
+     src:    url('http://localhost/lagenlia/wp-content/uploads/avia_fonts/type_fonts/static/mavenpro-regular.ttf') format('truetype');
+     font-style:  normal;
+     font-weight: 400;
+     font-display: auto;
+}
+@font-face { 
+     font-family: 'static';
+     src:    url('http://localhost/lagenlia/wp-content/uploads/avia_fonts/type_fonts/static/mavenpro-semibold.ttf') format('truetype');
+     font-style:  normal;
+     font-weight: 600;
+     font-display: auto;
+}
+
+
+.editor-block-list__block,
+.editor-block-list__block p {background-color:#ffffff; color:#b0b0b0; font-size:20px;}
+.editor-block-list__block h1,
+.editor-block-list__block h2,
+.editor-block-list__block h3,
+.editor-block-list__block h4,
+.editor-block-list__block h5,
+.editor-block-list__block h6 {color:#222222;}
+.editor-post-title__block textarea {color:#999999; background-color:#f8f8f8;}
+.editor-block-list__block a,
+.editor-block-list__block strong,
+.editor-block-list__block b,
+.editor-block-list__block b a,
+.editor-block-list__block strong a {color:#000000;}
+.editor-block-list__block .wp-block-heading,
+.editor-post-title__block textarea {font-family:'static', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica-Neue', Helvetica, Arial, sans-serif;}
+.editor-block-list__block {font-family:'static', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica-Neue', Helvetica, Arial, sans-serif;}

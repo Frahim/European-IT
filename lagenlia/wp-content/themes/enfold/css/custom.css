@@ -1,0 +1,652 @@
+/* Have fun adding your style here :) - PS: At all times this file should contain a comment or a rule, otherwise opera might act buggy :( */
+
+/* General Custom CSS */
+
+.stretch_full.container_wrap.alternate_color.light_bg_color.title_container{
+    display: none;
+}
+li#menu-item-28 {
+    position: relative;
+    top: 21px;
+}
+li#menu-item-28 a{
+    background: url(/lagenlia/wp-content/themes/enfold/images/design/button-bg.png)!important;
+    background-repeat: no-repeat;
+    background-size: 100% !important;
+    width: 262px;
+    max-height: 72px;
+    text-align: center;
+    color: #fff;
+    background-position: center;
+}
+.header-scrolled li#menu-item-28 a {
+    background: #09c !important;
+}
+li#menu-item-28 a span.avia-menu-text {
+    font-size: 17px;
+    line-height: 24px;
+    position: relative;
+    top: -21px;
+}
+
+.header-scrolled li#menu-item-28 {
+    position: relative;
+    top: 0px;
+}
+
+.header-scrolled li#menu-item-28 a span.avia-menu-text {
+    top: 0px;
+}
+
+
+p.sub_title {
+    color: #0099CC;
+    font-size: 20px;
+    margin-bottom: 5px !important;
+}
+h2.title {
+    margin: 0;
+    color: #0099CC;
+    font-size: 50px;
+    text-transform: inherit !important;
+    font-weight: 700 !important;
+}
+.title-sec {
+    position: relative;
+    margin-bottom: 60px;
+}
+.title-sec:after {
+    content: "";
+    background: url(/lagenlia/wp-content/themes/enfold/images/design/titlebg.png) no-repeat !important;
+    height: 160px;
+    display: block;
+    background-position: center;
+    position: absolute;
+    top: -30px;
+    width: 100%;
+    left: -176px;
+    background-size: contain !important;
+    z-index: -1;
+}
+
+div#right-title .title-sec:after {
+    content: "";
+    background: url(/lagenlia/wp-content/themes/enfold/images/design/titlebg.png) no-repeat !important;
+    height: 150px;
+    display: block;
+    background-position: center;
+    position: absolute;
+    top: -43px;
+    width: 100%;
+    left: -76px;
+    background-size: contain !important;
+    z-index: -1;
+}
+
+div#right-title .title-sec, div#right-title .cont-sec{
+    padding-left: 30px;
+}
+.cont-sec {    
+    line-height: 1.3em;
+    margin-bottom: 60px;
+}
+a.button {
+    background: url(/lagenlia/wp-content/themes/enfold/images/design/button-bg.png)!important;
+    background-repeat: no-repeat;
+    background-size: 100% !important;
+    width: 262px;
+    min-height: 72px !important;
+    text-align: center;
+    color: #fff;
+    background-position: center;
+    display: block;
+    padding-top: 19px;
+    font-weight: 800;
+}
+
+.title-mainsec {
+    text-align: center;
+    background: url(/lagenlia/wp-content/themes/enfold/images/design/title-centerbg2x.png) no-repeat !important;
+    background-size: contain  !important;
+    background-repeat: no-repeat;
+    background-position: center !important;
+}
+.contaner {
+    width: 80%;
+    margin: 60px auto;
+}
+.wrap {
+    display: block;
+    clear: both;
+    background: #ebebeb;
+    padding: 10px;
+    color: #000;
+    font-size: 16px;
+    margin-top: 30px;
+    position: relative;
+    top: 30px;
+}
+.time {
+    display: flex;
+    justify-content:space-between;
+    padding: 10px;
+}
+.loc{
+    display: flex;
+    justify-content:start;
+    padding: 10px;  
+}
+ul.event_home {
+    display: flex;
+    justify-content: space-between;
+}
+ul.event_home li {
+    display: inline-block;
+    margin: 20px;
+    padding: 0;
+}
+ul.event_home li img {
+    max-width: 80px;
+}
+hr.rcp_img_bg {
+    position: relative;
+    top:73px;
+    z-index: -1;
+    border-color: #000;
+}
+.ev_wrap p {
+    margin: 0;
+    color: #000;
+    font-size: 20px;
+    font-weight: 300;
+}
+.ev_wrap {
+    text-align: center;
+}
+img.wp-image-241.avia-img-lazy-loading-241.avia_image {
+    height: 524px;
+    object-fit: cover;
+}
+/* Form Section */
+section#homeform {
+    background: url(/lagenlia/wp-content/themes/enfold/images/design/formbg.png) no-repeat !important;
+    padding: 60px;
+    text-align: center;
+    background-size: contain !important;
+    background-position: center !important;
+    color: #fff;
+}
+section#homeform a{
+    color: #fff;
+    text-decoration: underline;
+}
+.innerwrwp {
+    width: 70%;
+    margin: auto;
+}
+.fname,.lname, .your-email, .tel-448{
+    display: inline-block;
+    width: 46% !important;
+    margin: 10px;
+}
+
+form span input {
+    background: transparent !important;
+    border: 2px solid #fff !important;
+    margin: 0 !important;
+}
+
+section#homeform h2 {
+    color: #fff;
+    font-size: 50px;
+    text-transform: capitalize;
+}
+
+span.wpcf7-list-item {
+    text-align: left;
+}
+span.wpcf7-list-item-label {
+    font-size: 18px !important;
+    color: #fff !important;
+}
+div#wpcf7-f234-p14-o1 {
+    margin-top: 40px;
+}
+.innerwrwp p {
+    margin-top: 0;
+    line-height: 26px;
+}
+
+section#homeform ::-webkit-input-placeholder { /* Edge */
+    color: #fff !important;
+    font-size: 18px !important;
+}
+
+section#homeform :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #fff !important;
+    font-size: 18px !important;
+}
+
+section#homeform ::placeholder {
+    color: #fff !important;
+    font-size: 18px !important;
+}
+
+input[type="checkbox"]:checked {
+    background: #40c1ef !important;
+}
+input[type="checkbox"] {
+    width: 15px !important;
+    height: 15px !important;
+    border-radius: 60%;
+    vertical-align: middle;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+    display: inline-block !important;
+    margin-right: 10px !important;
+}
+
+input.wpcf7-form-control.wpcf7-submit {
+    width: 260px;
+    height: 70px;
+    background: url(/lagenlia/wp-content/themes/enfold/images/design/submit178@2x.png) no-repeat !important;
+    background-size: contain !important;
+    color: #0198cd;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+/*
+Team Styles
+================================================== */
+div#temmember {
+    background-size: cover;
+    padding: 60px;
+}
+section.avia-team-member {
+    text-align: center;
+}
+section#tmsectitle h2 {
+    text-align: center;
+    font-size: 50px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+div#temmember img {
+    max-width: 122px !important;
+}
+h3.team-member-name {
+    font-size: 20px;
+}
+.team-member-description.av_inherit_color {
+    font-size: 17px;
+}
+
+section#first-user:after, section#sconduser:after {
+    content:url(/lagenlia/wp-content/themes/enfold/images/design/rgb_EiendomsMegler1_bw_neg.png);
+}
+section#thirduser:after {
+    content:url(/lagenlia/wp-content/themes/enfold/images/design/PK_Hus_midtstilt_outline.png);
+}
+/*
+Event filter Styles
+================================================== */
+.filter-wrap {
+
+    display: flex;
+    justify-content: center;
+}
+.category,.date,.location {
+    margin: 10px;
+}
+
+.filter-wrap select {
+    min-width: 200px !important;
+    font-size: 14px !important;
+    padding: 10px !important;
+}
+.field-title {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+/*
+Event Styles
+================================================== */
+
+.latest_posts_wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: baseline;
+}
+.latest_posts_wrapper article, .filtered-posts article{
+    margin: 15px auto;
+    border: 1px solid #ececec;
+    border-radius: 5px;
+    padding: 30px 15px;
+    max-width: 448px!important;
+    background: #221333;
+    color: #fff;
+    position: relative;
+}
+spn.cat_name {
+    display: block;
+    text-align: center;
+    font-size: 10px;
+    color: #fff;
+    line-height: 10px;
+}
+.evleftPart, .evrightPart {
+    width: 100%;
+    display:block;
+}
+
+span.title {
+    padding-left: 10px;
+    color: #09c;
+    font-weight: 600;
+    text-transform: uppercase;
+    width: 260px;
+    text-align: center;
+}
+.evleftPart {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.evleftPart h3 {
+    color: #09c;
+}
+span.day {
+    font-size: 25px;
+    font-weight: 600;
+    vertical-align: super;
+    padding: 5px 10px;
+}
+span.daymy {
+    text-align: center;
+    font-size: 14px;
+}
+a.ancor {
+    color: #fff;
+    font-size: 16px;
+    border: 1px solid #fff;
+    padding: 0px 18px !important;
+    display: block;
+    border-radius: 10px;
+    transition: 0.2s;
+    line-height: 28px;
+}
+a.ancor:hover {
+    background: #fff;
+    color: #000;
+    text-decoration: none;
+}
+
+.load_more.text-center {
+    text-align: center;
+}
+.btnLoadmoreWrapper a {
+    text-decoration: none;
+    border: 1px solid #09c;
+    color: #09c;
+    padding: 7px 20px;
+    border-radius: 5px;
+    display: block;
+    max-width: 180px;
+    margin: 30px auto;
+}
+
+.btnLoadmoreWrapper a:hover {
+    background: #09c;
+    color: #fff;
+}
+a.btn.btn-circle.btn-inverse.btn-load-more {
+    text-decoration: none;
+    border: 1px solid #09c;
+    color: #09c;
+    padding: 7px 20px;
+    border-radius: 5px;
+    display: block;
+    max-width: 180px;
+    margin: 30px auto;
+    transition: 0.2s;
+}
+/*
+Footer Styles
+================================================== */
+#footer{padding: 0 !important;}
+.footer_Col_2 {
+    width: 10% !important;
+}
+.footer_Col_3 {
+    width: 370px !important;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+.footer_Col_4 {
+    text-align: center;
+
+    font-size: 18px;
+    text-decoration: underline;
+}
+img.wp-image-289 {
+    max-width: 175px;
+}
+section#block-3 figure.aligncenter.size-full {
+    padding: 0;
+}
+#footer .wp-block-image{
+    margin: 0 !important;
+}
+
+a#scroll-top-link {
+    background: url(/lagenlia/wp-content/themes/enfold/images/design/Component.png) !important;
+    background-position: center!important;
+    background-size: contain !important;
+    background-repeat: no-repeat!important;
+    right: 100px;
+    width: 115px!important;
+    border: none !important;
+    opacity: 1 !important;
+}
+a#scroll-top-link:hover{
+    opacity: 0.7 !important;
+}
+a#scroll-top-link:before {
+    display: none;
+}
+.evicon img {
+    max-width: 80px;
+}
+/*
+Desktop Styles
+================================================== */
+/* Note: Add new css to the media query below that you want to only effect the desktop view of your site */
+
+@media only screen and (min-width: 769px) {
+    /* Add your Desktop Styles here */
+
+    ul#indicators{display: none;}
+
+}
+
+
+
+/*
+Mobile Styles
+================================================== */
+/* Note: Add new css to the media query below that you want to only effect the Mobile and Tablet Portrait view */
+
+@media only screen and (max-width: 768px) {
+    /* Add your Mobile Styles here */
+    img.wp-image-31 {height: 375px; object-fit: cover;    }
+    .responsive #top #wrap_all .container{width: 100% !important; max-width: 100% !important; padding: 0 15px;}
+    div#av_section_1 .flex_column {padding: 40px 0 !important;}    
+    h2.title,section#homeform h2, section#tmsectitle h2{font-size: 25px;}
+    p.sub_title,.innerwrwp p{font-size: 16px;}    
+    .title-sec:after{height: 120px; left: -35px;}
+    section#homeform{background-color: #0099CC !important;padding: 60px 15px; background-image: none !important; }
+    .innerwrwp { width: 100%;}
+    .fname, .lname, .your-email, .tel-448{width: 95% !important; margin: 10px 0;}
+    span.wpcf7-list-item{margin: 0;}
+    div#right-title,div#temmember {padding: 0 !important;}
+    section#tmsectitle h2 { margin-bottom: 30px;}
+    #footer .widget{    text-align: center;}
+    .footer_Col_2,.footer_Col_3, .footer_Col_4 { width: 100% !important;}
+
+
+}
+
+
+
+/* load more posts demo styles */
+.DemoWrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+.DemoWrapper .loadMoreRepeat {
+    width: 50%;
+    padding: 10px;
+}
+.DemoWrapper .loadMoreRepeat .innerWrap {
+    background: #fff;
+    padding: 15px;
+}
+.btnLoadmoreWrapper {
+    text-align: center;
+    margin-top: 10px;
+    width: 100%;
+}
+p.noMorePostsFound {
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    color: red;
+    font-size: 18px;
+}
+svg {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    display: inline-block;
+}
+.LoaderImg {width: 100%;text-align: center;}
+
+
+.loadMoreRepeat {
+    display: block;
+    clear: both;
+}
+
+/*
+Slider
+*/
+#galleries-list .content {
+    width: 100px;           
+    text-align: center;           
+    padding: 4% 0;
+    padding: 10% 0;
+    margin: auto;
+    box-sizing: border-box;
+    font-size: 40px;
+}
+
+#galleries-list {
+    float: left;
+    padding: 0px;
+    margin: 0px;
+    overflow:hidden;
+    width:100%;
+}
+
+#galleries-list ul {
+    width: 100%;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#galleries-list ul li {
+    position: relative;
+    left: 0px;
+    float: left;
+    width: 25%;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    transition: left .75s ease-out;
+}
+
+#galleries-list ul li a{
+    color: white;
+}
+
+#galleries-list ul li p{
+    padding: 0px 15px 0px 15px;
+    font-size: 15px;
+    color: #758a9f !important;
+}
+
+#galleries-list ul li h2{
+    font-size: 25px;
+    color: white;
+}
+
+#galleries-list .slider-nav {
+    position: relative;
+    float: left;
+    left: calc(50% - 45px);
+}
+
+#galleries-list .slide-left {
+    margin-right: 10px;
+}
+
+#galleries-list .slide-left, #galleries-list .slide-right {
+    cursor: pointer;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Chrome/Safari/Opera */
+    -khtml-user-select: none; /* Konqueror */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                          not supported by any browser */
+}
+
+#galleries-list .slide-left:hover, #galleries-list .slide-right:hover {
+    font-weight: 700;
+}
+
+ul#indicators li {
+    display: inline-block;    
+    padding: 0;
+    margin: 0;
+}
+ul#indicators {
+    position: relative;
+    clear: both;
+    text-align: center;
+    margin: 0;
+}
+.dot {
+    margin: 0 2px;
+    width: 15px;
+    height: 15px;
+    background: #09c;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active {
+    background-color: #15bdf5;
+}
+.big-preview img {
+    max-width: 100%;
+    width: auto;
+}
