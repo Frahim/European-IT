@@ -7,3 +7,7 @@
  # Shortcode
  1. For using Filter option use [event_filter] Shortcode.
  2. For Upcoming Event use [upcoming_event  initial_posts="2" category_name='category_slug'   loadmore_posts="1"] Shortcode.
+
+# Page
+1. Home
+2. Event (/event)
